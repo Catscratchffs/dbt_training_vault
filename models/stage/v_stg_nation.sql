@@ -17,8 +17,6 @@ hashed_columns:
         - 'NATION_NAME'
         - 'REGION_KEY'
 {%- endset -%}
-v_stg_region.sql
-sat_nation.sql
 {% set metadata_dict = fromyaml(yaml_metadata) %}
 {% set source_model = metadata_dict['source_model'] %}
 {% set derived_columns = metadata_dict['derived_columns'] %}

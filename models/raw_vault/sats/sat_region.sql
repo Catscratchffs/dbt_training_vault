@@ -1,11 +1,9 @@
 {%- set yaml_metadata -%}
-source_model: v_stg_nation
-src_pk: NATION_PK
-src_hashdiff: NATION_HASHDIFF
+source_model: v_stg_region
+src_pk: REGION_PK
+src_hashdiff: REGION_HASHDIFF
 src_payload:
-    - NATION_KEY
-    - NATION_NAME
-    - REGION_KEY
+    - REGION_NAME
 src_eff: EFFECTIVE_FROM
 src_ldts: LOAD_DATETIME
 src_source: RECORD_SOURCE
